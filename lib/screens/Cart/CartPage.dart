@@ -14,7 +14,7 @@ class CartPage extends StatelessWidget {
         children: [
           CartAppBar(),
           Container(
-            height: 700,
+            height: 610,
             padding: EdgeInsets.only(top: 10),
             decoration: BoxDecoration(
               color: clr.secndry,
@@ -27,7 +27,7 @@ class CartPage extends StatelessWidget {
               children: [
                 CartItems(),
                 Container(
-                  margin: EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+                  margin: EdgeInsets.symmetric(horizontal: 15, vertical: 02),
                   padding: EdgeInsets.all(20),
                   child: Row(
                     children: [
@@ -38,6 +38,7 @@ class CartPage extends StatelessWidget {
                         ),
                         child: Icon(
                           Icons.add,
+                          size: 20,
                           color: Colors.white,
                         ),
                       ),
@@ -47,14 +48,14 @@ class CartPage extends StatelessWidget {
                           "Add Coupon Code",
                           style: TextStyle(
                               color: clr.primary,
-                              fontSize: 18,
+                              fontSize: 16,
                               fontWeight: FontWeight.bold),
                         ),
                       ),
                     ],
                   ),
                 ),
-                SizedBox(height: 90),
+                SizedBox(height: 50),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 12),
                   child: Column(
@@ -67,7 +68,7 @@ class CartPage extends StatelessWidget {
                             "Total:",
                             style: TextStyle(
                               color: clr.primary,
-                              fontSize: 20,
+                              fontSize: 18,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -75,16 +76,16 @@ class CartPage extends StatelessWidget {
                             "₹ 103,500.00",
                             style: TextStyle(
                               color: clr.primary,
-                              fontSize: 20,
+                              fontSize: 18,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                         ],
                       ),
-                      SizedBox(height: 18),
+                      SizedBox(height: 15),
                       Container(
                         alignment: Alignment.center,
-                        height: 50,
+                        height: 42,
                         width: double.infinity,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -101,8 +102,8 @@ class CartPage extends StatelessWidget {
                             "Check Out",
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                              fontWeight: FontWeight.w500,
                             ),
                           ),
                         ),

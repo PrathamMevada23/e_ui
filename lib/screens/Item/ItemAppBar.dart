@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
@@ -8,7 +9,7 @@ class ItemAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
-      padding: EdgeInsets.all(25),
+      padding: EdgeInsets.all(20),
       child: Row(
         children: [
           InkWell(
@@ -16,8 +17,8 @@ class ItemAppBar extends StatelessWidget {
               Navigator.pop(context);
             },
             child: Icon(
-              Icons.arrow_back,
-              size: 30,
+              CupertinoIcons.chevron_back,
+              size: 26,
               color: Color(0xFF4C53A5),
             ),
           ),
@@ -26,7 +27,7 @@ class ItemAppBar extends StatelessWidget {
             child: Text(
               "Product",
               style: TextStyle(
-                fontSize: 23,
+                fontSize: 20,
                 fontWeight: FontWeight.bold,
                 color: Color(0xFF4C53A5),
               ),
@@ -35,7 +36,7 @@ class ItemAppBar extends StatelessWidget {
           Spacer(),
           Icon(
             Icons.favorite,
-            size: 30,
+            size: 26,
             color: Colors.red,
           ),
         ],

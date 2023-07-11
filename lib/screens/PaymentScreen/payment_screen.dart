@@ -17,9 +17,14 @@ class _PaymentScreenState extends State<PaymentScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: clr.secndry,
-        leading: Icon(
-          CupertinoIcons.chevron_back,
-          color: clr.primary,
+        leading: InkWell(
+          onTap: () {
+            Navigator.pop(context);
+          },
+          child: Icon(
+            CupertinoIcons.chevron_back,
+            color: clr.primary,
+          ),
         ),
         title: Text(
           "Payment",

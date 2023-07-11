@@ -67,9 +67,9 @@ class ProfilePage extends StatelessWidget {
             ),
             TileList(
               color: Colors.red.shade100,
-              icon: CupertinoIcons.question_diamond,
+              icon: CupertinoIcons.gear_big,
               iconColor: Colors.red,
-              name: 'Help Center',
+              name: 'Settings',
               onTap: () {},
             ),
             TileList(
