@@ -56,8 +56,8 @@ class ItemsWidget extends StatelessWidget {
                     margin: EdgeInsets.symmetric(horizontal: 5, vertical: 1),
                     child: Image.asset(
                       "assets/images/$i.png",
-                      height: 145,
-                      width: 140,
+                      height: 120,
+                      width: 120,
                     ),
                   ),
                 ),
@@ -67,7 +67,7 @@ class ItemsWidget extends StatelessWidget {
                   child: Text(
                     "Air Jordan 1 FLY",
                     style: TextStyle(
-                      fontSize: 20,
+                      fontSize: 16,
                       fontWeight: FontWeight.bold,
                       color: Color(0xFF4c53A5),
                     ),

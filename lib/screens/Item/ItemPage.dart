@@ -28,7 +28,7 @@ class ItemPage extends StatelessWidget {
             padding: EdgeInsets.all(12),
             child: Image.asset(
               "assets/images/1.png",
-              height: 300,
+              height: 280,
             ),
           ),
           Arc(
@@ -52,7 +52,7 @@ class ItemPage extends StatelessWidget {
                           Text(
                             "Air Jordan 1 FLY",
                             style: TextStyle(
-                              fontSize: 32,
+                              fontSize: 28,
                               fontWeight: FontWeight.w500,
                               color: Color(0xFF4c53A5),
                             ),
@@ -153,7 +153,7 @@ class ItemPage extends StatelessWidget {
                         Text(
                           "Size:",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Color(0xFF4c53A5),
                             fontWeight: FontWeight.bold,
                           ),
@@ -164,8 +164,8 @@ class ItemPage extends StatelessWidget {
                           children: [
                             for (int i = 6; i < 11; i++)
                               Container(
-                                height: 30,
-                                width: 30,
+                                height: 25,
+                                width: 25,
                                 alignment: Alignment.center,
                                 margin: EdgeInsets.symmetric(horizontal: 5),
                                 decoration: BoxDecoration(
@@ -181,7 +181,7 @@ class ItemPage extends StatelessWidget {
                                 child: Text(
                                   "$i",
                                   style: TextStyle(
-                                    fontSize: 17,
+                                    fontSize: 14,
                                     fontWeight: FontWeight.bold,
                                     color: Color(0xFF4c53A5),
                                   ),
@@ -200,7 +200,7 @@ class ItemPage extends StatelessWidget {
                         Text(
                           "Color:",
                           style: TextStyle(
-                            fontSize: 22,
+                            fontSize: 20,
                             color: Color(0xFF4c53A5),
                             fontWeight: FontWeight.bold,
                           ),
@@ -211,8 +211,8 @@ class ItemPage extends StatelessWidget {
                           children: [
                             for (int i = 0; i < 5; i++)
                               Container(
-                                height: 30,
-                                width: 30,
+                                height: 25,
+                                width: 25,
                                 alignment: Alignment.center,
                                 margin: EdgeInsets.symmetric(horizontal: 5),
                                 decoration: BoxDecoration(

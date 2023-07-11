@@ -1,4 +1,5 @@
 import 'package:e_ui/const/color.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
@@ -19,8 +20,8 @@ class Favtile extends StatelessWidget {
           children: [
             SlidableAction(
               onPressed: (BuildContext context) {},
-              icon: Icons.delete,
-              backgroundColor: Colors.white,
+              icon: CupertinoIcons.trash,
+              backgroundColor: Colors.black,
               borderRadius: BorderRadius.circular(10),
             ),
           ],

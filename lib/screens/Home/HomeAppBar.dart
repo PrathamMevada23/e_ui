@@ -14,7 +14,7 @@ class HomeAppBar extends StatelessWidget {
         children: [
           Icon(
             CupertinoIcons.house_fill,
-            size: 30,
+            size: 26,
             color: clr.primary,
           ),
           SizedBox(width: 100),
@@ -22,7 +22,7 @@ class HomeAppBar extends StatelessWidget {
             "Sneak UI",
             style: TextStyle(
               color: clr.primary,
-              fontSize: 26,
+              fontSize: 22,
               fontWeight: FontWeight.bold,
             ),
           ),

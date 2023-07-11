@@ -67,7 +67,7 @@ class CartPage extends StatelessWidget {
                             "Total:",
                             style: TextStyle(
                               color: clr.primary,
-                              fontSize: 22,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -75,13 +75,13 @@ class CartPage extends StatelessWidget {
                             "₹ 103,500.00",
                             style: TextStyle(
                               color: clr.primary,
-                              fontSize: 25,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                         ],
                       ),
-                      SizedBox(height: 15),
+                      SizedBox(height: 18),
                       Container(
                         alignment: Alignment.center,
                         height: 50,
@@ -101,7 +101,7 @@ class CartPage extends StatelessWidget {
                             "Check Out",
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
                           ),

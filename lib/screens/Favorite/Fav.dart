@@ -53,7 +53,7 @@ class FavPage extends StatelessWidget {
                     ),
                     Padding(
                       padding:
-                          EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                          EdgeInsets.symmetric(vertical: 20, horizontal: 15),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -62,14 +62,14 @@ class FavPage extends StatelessWidget {
                             "Air Jordan 1 FLY",
                             style: TextStyle(
                               color: clr.primary,
-                              fontSize: 22,
+                              fontSize: 16,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
                           Text(
                             "₹ 34,500",
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 14,
                               fontWeight: FontWeight.bold,
                               color: clr.primary,
                             ),
@@ -80,7 +80,7 @@ class FavPage extends StatelessWidget {
                     Icon(
                       CupertinoIcons.bag_badge_plus,
                       color: clr.primary,
-                      size: 26,
+                      size: 22,
                     ),
                   ],
                 ),

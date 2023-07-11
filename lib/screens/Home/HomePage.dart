@@ -11,7 +11,6 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
@@ -73,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                     child: Text(
                       "Categories",
                       style: TextStyle(
-                        fontSize: 25,
+                        fontSize: 23,
                         fontWeight: FontWeight.bold,
                         color: clr.primary,
                       ),
@@ -91,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                       "Best Selling",
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        fontSize: 24,
+                        fontSize: 22,
                         color: clr.primary,
                       ),
                     ),

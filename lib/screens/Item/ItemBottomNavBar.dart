@@ -30,7 +30,7 @@ class ItemBottomNavBar extends StatelessWidget {
             Text(
               "₹ 34,500.00",
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
                 color: clr.primary,
               ),
@@ -40,7 +40,7 @@ class ItemBottomNavBar extends StatelessWidget {
               icon: Icon(CupertinoIcons.cart_badge_plus),
               label: Text(
                 "Add To Cart",
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(clr.primary),

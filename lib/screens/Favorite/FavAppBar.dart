@@ -8,12 +8,12 @@ class FavAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.white,
-      padding: EdgeInsets.symmetric(horizontal: 15, vertical: 32),
+      padding: EdgeInsets.only(top: 50, left: 25, bottom: 15, right: 15),
       child: Row(
         children: [
           Icon(
             Icons.favorite,
-            size: 30,
+            size: 26,
             color: clr.primary,
           ),
           Padding(
@@ -21,7 +21,7 @@ class FavAppBar extends StatelessWidget {
             child: Text(
               "Favorites",
               style: TextStyle(
-                fontSize: 25,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
                 color: clr.primary,
               ),
@@ -30,7 +30,7 @@ class FavAppBar extends StatelessWidget {
           Spacer(),
           Icon(
             Icons.more_vert,
-            size: 30,
+            size: 26,
             color: clr.primary,
           ),
         ],

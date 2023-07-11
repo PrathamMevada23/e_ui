@@ -13,7 +13,7 @@ class ProfilePage extends StatelessWidget {
     var screenWidth = MediaQuery.of(context).size.width;
     return SingleChildScrollView(
       child: Padding(
-        padding: const EdgeInsets.only(left: 10, top: 30),
+        padding: const EdgeInsets.only(left: 10, top: 40),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -36,7 +36,7 @@ class ProfilePage extends StatelessWidget {
                 ),
               ),
             ),
-            Divider(height: 30, thickness: 1, color: Colors.grey),
+            Divider(height: 25, thickness: 1, color: Colors.grey),
             TileList(
               color: Colors.orange.shade100,
               icon: CupertinoIcons.person_alt,

@@ -28,8 +28,8 @@ class CartItems extends StatelessWidget {
                 ),
                 Container(
                   height: 100,
-                  width: 90,
-                  margin: EdgeInsets.only(right: 15, bottom: 8),
+                  width: 75,
+                  margin: EdgeInsets.only(right: 05, bottom: 8),
                   child: Image.asset("assets/images/$i.png"),
                 ),
                 Padding(
@@ -85,7 +85,7 @@ class CartItems extends StatelessWidget {
                             ),
                             child: Icon(
                               CupertinoIcons.minus,
-                              size: 18,
+                              size: 14,
                             ),
                           ),
                           Container(

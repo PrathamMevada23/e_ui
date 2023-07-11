@@ -36,7 +36,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
         child: Center(
           child: Column(
             children: [
-              SizedBox(height: 40),
+              SizedBox(height: 30),
               Container(
                 width: size.width,
                 height: 55,
@@ -80,7 +80,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   ),
                 ),
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 16),
               Container(
                 width: size.width,
                 height: 55,
@@ -128,7 +128,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   ),
                 ),
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 16),
               Container(
                 width: size.width,
                 height: 55,
@@ -172,7 +172,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                   ),
                 ),
               ),
-              SizedBox(height: 160),
+              SizedBox(height: 100),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
