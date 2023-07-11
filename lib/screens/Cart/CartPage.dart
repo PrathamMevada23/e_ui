@@ -1,6 +1,7 @@
 import 'package:e_ui/const/color.dart';
 import 'package:e_ui/screens/Cart/CartItems.dart';
 import 'package:e_ui/screens/Cart/CartAppBar.dart';
+import 'package:e_ui/screens/PaymentScreen/payment_screen.dart';
 import 'package:flutter/material.dart';
 
 class CartPage extends StatelessWidget {
@@ -89,12 +90,20 @@ class CartPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                           color: clr.primary,
                         ),
-                        child: Text(
-                          "Check Out",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => PaymentScreen()));
+                          },
+                          child: Text(
+                            "Check Out",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
                       ),
